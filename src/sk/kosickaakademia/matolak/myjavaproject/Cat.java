@@ -1,6 +1,6 @@
 package sk.kosickaakademia.matolak.myjavaproject;
 
-public class Cat extends Animal {
+public class Cat extends Animal implements NoWalking {
     public Cat(int size, int age) {
         super(size, age);
     }
